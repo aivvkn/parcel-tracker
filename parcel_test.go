@@ -1,13 +1,16 @@
 package main
 
 import (
-	"database/sql"
-	"math/rand"
-	"testing"
-	"time"
+    "database/sql"
+    _ "modernc.org/sqlite"
 
-	"github.com/stretchr/testify/require"
+    "math/rand"
+    "testing"
+    "time"
+
+    "github.com/stretchr/testify/require"
 )
+
 
 var (
 	// randSource — это источник псевдослучайных чисел.

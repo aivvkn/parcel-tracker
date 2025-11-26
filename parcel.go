@@ -2,6 +2,7 @@ package main
 
 import (
 	"database/sql"
+	 _ "modernc.org/sqlite"
 )
 
 type ParcelStore struct {
