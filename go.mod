@@ -3,6 +3,7 @@ module parcel-tracker
 go 1.24.0
 
 require (
+	github.com/mattn/go-sqlite3 v1.14.32
 	github.com/stretchr/testify v1.11.1
 	modernc.org/sqlite v1.40.1
 )

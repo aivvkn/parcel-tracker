@@ -2,7 +2,7 @@ package main
 
 import (
     "database/sql"
-    _ "modernc.org/sqlite"
+    _ "github.com/mattn/go-sqlite3"
 
     "math/rand"
     "testing"
@@ -10,6 +10,7 @@ import (
 
     "github.com/stretchr/testify/require"
 )
+
 
 
 var (
